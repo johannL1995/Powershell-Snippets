@@ -1,3 +1,5 @@
+# Creates an HTML file with 10 colored gradients made of 4 colors
+
 $htext = '0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F' -split ','
 
 function Make-HexCode
