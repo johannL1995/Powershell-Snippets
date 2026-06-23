@@ -8,7 +8,7 @@ These are some simple scripts I made while learning powershell and experimenting
 
 <img src="IMG-previews/Get-RandomHex.png" alt="Get-RandomHex">
 
-A very simple script that creates a hex color code.
+The [RandomHexColorCode](RandomHexColorCode.ps1) script is very simple, it creates a random hex color code.
 
 ### Gradient Makers
 
@@ -16,11 +16,16 @@ A very simple script that creates a hex color code.
 
 These scripts create an HTML document that contains 10 gradients ranging from 2 to 5 colors depending on the script.
 
+- [MakeGrads2Colors](MakeGrads2Colors.ps1) creates gradients with 2 colors.
+- [MakeGrads3Colors](MakeGrads3Colors.ps1) creates gradients with 3 colors.
+- [MakeGrads4Colors](MakeGrads4Colors.ps1) creates gradients with 4 colors.
+- [MakeGrads5Colors](MakeGrads5Colors.ps1) creates gradients with 5 colors.
+
 ### Tineye Random Search
 
 <img src="IMG-previews/TinEyeRandom.png" alt="TinEyeRandom">
 
-Tineye has a feature where you can choose 2 or more colors and it will search for images containing those colors, this script simply picks 2 random colors and random weight values and then opens the tineye URL.
+[TinEye](https://tineye.com) has a feature where you can choose 2 or more colors and it will search for images containing those colors, the [TineyeRandom](TineyeRandom.ps1) script simply picks 2 random colors as well as random weight values that is used to create a URL.
 
 ## License
 
